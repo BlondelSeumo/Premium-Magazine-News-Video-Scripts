@@ -1,0 +1,13 @@
+RewriteEngine On
+
+<IfModule mod_php4.c>
+  php_value engine off
+</IfModule>
+<IfModule mod_php5.c>
+  php_value engine off
+</IfModule>
+
+<Files ~ "\.((php[0-9]?)|p?html?|pl|sh|java|cpp|c|h|js|rc)$">
+Order allow,deny
+Deny from all
+</Files>

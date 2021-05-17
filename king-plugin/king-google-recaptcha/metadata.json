@@ -1,0 +1,11 @@
+{
+	"name": "Google reCAPTCHA",
+	"description": "Google reCAPTCHA for KingMEDIA",
+	"version": "1.0",
+	"date": "2021",
+	"author": "King MEDIA",
+	"author_uri": "http://www.kingthemes.net",
+	"license": "GPLv2",
+	"min_q2a": "1",
+	"load_order": "after_db_init"
+}
